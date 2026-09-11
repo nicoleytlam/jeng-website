@@ -52,3 +52,8 @@ input::placeholder,textarea::placeholder{color:#d3bdb0}
 .footer{color:#64543f}
 @media(max-width:900px){.bio-grid{gap:7%;grid-template-columns:1.1fr 1fr}h1{font-size:86px}}
 @media(max-width:620px){.bio-grid{grid-template-columns:1fr;gap:36px}h1{font-size:clamp(72px,18vw,100px)}.opening{padding-block:26px 42px}.opening::before{background:linear-gradient(180deg,rgba(33,39,26,.95),rgba(33,39,26,.7)),url('/romantic-landscape.png') 65% center/cover no-repeat}.portrait-frame{max-width:330px;margin:auto}.testimonials,.contact{padding-block:48px}.quotes{gap:0}.bio-copy p:first-child{font-size:28px}}
+
+/* Upright titles and restored section labels. */
+.brand,h1,h2,.testimonials h2,.quote-heading h3{font-style:normal}
+.section-heading{align-items:flex-start;flex-direction:column;gap:14px}
+.contact h2{margin-top:18px}

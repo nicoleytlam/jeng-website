@@ -1,13 +1,14 @@
 // Replace the copy and contact details here. Leave unavailable details empty.
 export const content = {
   name: "Jackie Eng",
-  descriptor: "A personal practice",
-  title: "Thoughtfully considered.",
-  titleAccent: "Personally connected.",
-  introduction: "Good work begins with a conversation. A little curiosity, a shared intention, and the space to make something meaningful.",
-  bioTitle: "A little about me.",
+  descriptor: "",
+  title: "",
+  titleAccent: "",
+  introduction: "",
+  bioTitle: "Biography",
   bio: [
-    "[Insert Bio Here.]"
+    "Script Editor.",
+    "Loren ipsum."
   ],
   headshot: "", // e.g. /headshot.jpg — place the image in public/
   headshotAlt: "Portrait of Jackie Eng",
